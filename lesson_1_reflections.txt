@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Utilizar diff para comparar dos versiones distintas de un mismo fichero ayuda a
+encontrar bugs fácilmente, ya que, en vez de mostrarse ambos ficheros completos,
+si estos son razonablemente parecidos, solo se mostrarán las variaciones entre
+uno y el otro, lo que ayudará a localizar rápidamente los posibles errores o,
+simplemente, los cambios recientes que nos interesen.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A veces, los programadores cometemos errores que luego queremos enmendar a lo
+largo del tiempo, ya que nos damos cuenta después de mucho que algo que pensábamos
+que estaba mal, realmente era útil. Por tanto, es bastante útil tener acceso
+a un historial de versiones, para poder acceder a ellas y poder retomar cosas
+que nos fueron útiles anteriormente.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+El hecho de hacer commits manuales tiene el pro de que los haremos solo cuando
+hayamos añadido algo realmente importante a nuestro código (con una pequeña
+descripción de lo añadido) y podamos así mantener un control de versiones claro,
+al contrario que si se guardara automáticamente. El contra podría ser que nos
+olvidásemos de guardar cuando fuese necesario hacerlo.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Esto se hace para que, en el caso de que los ficheros estén relacionados entre
+sí (como que pertenezcan al mismo proyecto), pueda hacerse un seguimiento de
+cada modificación y cómo afectan estas en cada fichero.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log nos permite ver el historial de commits.
+git diff nos permite comparar dos commits distintos y ver las diferencias entre
+estos (el número de líneas añadidas y/o eliminadas).
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+El control de versiones nos permite poder modificar cosas sin tener miedo a
+introducir algún bug, ya que podemos volver fácilmente a la versión anterior sin
+haber perdido nada.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Me gustaría utilizar Git para hacer una buena gestión del código de mis proyectos,
+ya que voy a comenzar a desarrollar aplicaciones en Android y seguramente me vaya
+a ser muy útil.
