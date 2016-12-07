@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Se crea una carpeta oculta (.git), la cual se encargará de lo necesario para la
+gestión de los commits del repositorio. Esto es necesario para poder almacenar
+sin problemas distintas versiones de un mismo fichero, ya que sin esta carpeta,
+la gestión del repositorio no sería posible.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Es un paso intermedio entre el directorio y el commit en el repositorio. Permite
+decidir, antes de hacer el commit, qué ficheros se pertenecerán a ese snapshot,
+de manera que, si queremos añadir o quitar alguno antes de hacerlo, esto nos lo
+facilita sin ningún problema.
