@@ -13,3 +13,48 @@ Es un paso intermedio entre el directorio y el commit en el repositorio. Permite
 decidir, antes de hacer el commit, qué ficheros se pertenecerán a ese snapshot,
 de manera que, si queremos añadir o quitar alguno antes de hacerlo, esto nos lo
 facilita sin ningún problema.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+En la staging area podemos comprobar todos los cambios efectuados en los distintos
+ficheros de los que vamos a hacer el commit, comparándolos tanto con los del
+directorio de trabajo (ya que si no hemos pasado nada en la staging area,
+contendrá los mismos ficheros que el repositorio), como con los del repositorio
+(en el caso de que ya hayamos pasado algo en la staging area).
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+En situaciones en las que queremos hacer ramificaciones para probar nuevas funciones,
+añadir idiomas y temas experimentales, es útil añadir branches que no afecten
+al tronco principal del desarrollo del programa.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Se agrupan los códigos de ambas ramificaciones teniendo en cuenta el padre de
+ambas, de modo que sea un proceso automático y rápido. Lo representamos en un
+diagrama de modo que podamos ver fácilmente cuál es el padre de ambas ramificaciones
+y cómo convergen nuevamente.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+Los diagramas nos ayudan a visualizar la estructura de nuestro repositorio fácilmente,
+de modo que podamos mantener una visión general de nuestros avances en el proyecto
+y en sus distintas ramificaciones.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Hacer merging automático tiene la ventaja del ahorro de tiempo que supone, ya que,
+si no hay conflictos en el código, se ahorra mucho tiempo si el proyecto es extenso.
+Por contra, si hay conflictos, las personas creadoras de los códigos conflictivos
+deberán de ponerse de acuerdo para decidir qué código es el correcto y, después,
+hacer un commit con el resultado final.
