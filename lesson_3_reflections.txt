@@ -3,3 +3,45 @@ When would you want to use a remote repository rather than keeping all your work
 Cuando estuviera llevando a cabo un proyecto colaborativo, sería útil
 usar un remote, ya que todos tendríamos acceso a todos los ficheros y
 podríamos trabajar de forma independiente con ellos.
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Porque quizás estás desarrollando algo en concreto utilizando tu propio repositorio
+y no quieres sincronizarlo con GitHub hasta que esté terminado, así como quizás
+el hecho de no querer sincronizar alguno de los branches con los que estás trabajando.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Los branches son simplemente ramificaciones de nuestro repositorio. Por otro lado,
+clones nos permite clonar un repositorio directamente de GitHub en nuestro repositorio
+local. En el caso de los forks, en vez de clonar el repositorio de GitHub en uno
+local, lo clonaremos directamente en nuestro repositorio de GitHub, como si fuera
+nuestro y pudiendo trabajar con él, pero siempre haciendo referencia al original.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Porque puede haber avances en el trabajo hecho por otros que quizás nos interesen
+y que ya no necesitemos realizar.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Sin usar Git o GitHub, utilizaría algún otro repositorio de código o simplemente
+intercambiando los archivos, o quedando entre los colaboradores. Todo esto, ahora
+que domino el uso de Git y de GitHub, sería más complicado y menos eficiente, ya
+que Git y GitHub permiten una gran eficiencia en el control de versiones.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Prefiero hacer cambios en un branch separado cuando quiero probar alguna funcionalidad
+nueva para mi programa o hacer algún "experimento" con este, ya que, así, puedo
+volver al master y continuar actualizándolo con versiones funcionales.
